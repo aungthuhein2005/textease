@@ -1,0 +1,149 @@
+.text-editor{
+    position: relative;
+}
+
+.editor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 150px;
+    outline: none;
+  }
+
+  .editor.dark{
+    background-color: #333;
+    color: #fff;
+  }
+
+  .editor.light{
+    background-color: #fff;
+    color: #333;
+  }
+
+  .font-size-tool,
+  .file-tool{
+    margin: 8px;
+    width: max-content;
+    background-color: white;
+    position: absolute;
+    top: -20px;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .font-size-tool li,
+  .file-tool li{
+    text-align: start;
+    cursor: pointer;
+    padding: 0 8px;
+    list-style: none;
+  }
+
+  .file-tool li{
+    padding: 8px 12px;
+  
+  }
+
+  .file-tool li div{
+      display: flex;
+    align-items: center;
+  }
+
+  .file-tool li i{
+    margin-right: 8px;
+  }
+
+  .font-size-tool li:hover,
+  .file-tool li:hover
+  {
+    background-color: #eae9e9;
+  }
+
+  .font-size-tool button{
+    background: transparent;
+    border: 0;
+  }
+
+  .font-size-tool h3,
+  .font-size-tool h4,
+  .font-size-tool h5,
+  .font-size-tool p{
+    padding: 2px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  .toolbar ul.toolbar-list{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .toolbar .tool{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 3px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    border: 0;
+}
+
+
+  input{
+    border: 0;
+    outline: none;
+  }
+  
+  .toolbar{
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 10px;
+  }
+
+  .toolbar.light{
+     background: white;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .toolbar.dark{
+    background: #333;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .dark .tool{
+    background-color: #333;
+    color: #fff;
+  }
+
+  .light .tool{
+    background-color: #fff;
+    color: #333;
+  }
+
+  .light .tool:hover{
+    background-color: #f4f1f1;
+  }
+
+  .dark .tool:hover{
+    background-color: #4b4b4b;
+  }
+  
+  .toolbar button {
+    margin-right: 5px;
+  }
+  
+
+  select.tool{
+    outline: none;
+  }
+
+  select.tool option{
+    text-align: left;
+  }
+
