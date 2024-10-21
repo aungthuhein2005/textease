@@ -1,6 +1,6 @@
 {
   "name": "textease",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "textease is a richtext editor",
   "main": "dist/main.js",
   "peerDependencies": {

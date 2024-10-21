@@ -65,7 +65,7 @@ export default App;
 You can customize the `tools` you want in the toolbar by modifying the tools prop in the `TextEase` component. Additionally, the editor supports theme changes (`light` or `dark`) and toolbar positioning (`fixed` or `dynamic`).
 
 ## Contribution
-We welcome contributions! If you'd like to contribute to Textease, feel free to submit issues or pull requests on our [GitHub repository]().
+We welcome contributions! If you'd like to contribute to Textease, feel free to submit issues or pull requests on our [GitHub repository](https://github.com/aungthuhein2005/textease/tree/master).
 
 ## License
 This project is licensed under the MIT License.
