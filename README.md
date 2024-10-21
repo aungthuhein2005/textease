@@ -10,9 +10,10 @@ Textease is a powerful React rich text editor library. It provides a customizabl
 ## Installation
 Install the Textease package using npm:
 
-``
+```javascript
 npm install textease
-Usage
+```
+## Usage
 Here's a simple example to demonstrate how to use the Textease rich text editor in a React application.
 
 ```javascript
